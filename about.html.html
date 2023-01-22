@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="veiwport" content="with=device-width, intial-scale=1.0">
+       <title>University website design - Presidency University</title>
+       <link rel="stylesheet" href="styles.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/b800daac61.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo-1.png" ></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-sharp fa-solid fa-xmark " onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html.html">ABOUT</a></li>
+                        <li><a href="course.html.html">COURSE</a></li>
+                        <li><a href="blog.html.html">BLOG</a></li>
+                        <li><a href="contact.html.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+             <h1>About us</h1>
+        </section>
+<!-- -----about us content------ -->
+<section class="about-us">
+      
+        <div class="about-col">
+            <h1>To be a value-driven global University, excelling beyond peers <br>
+                and creating professionals of integrity and character having concern and care for society</h1>
+                <p>Mission
+                    Commit to be an innovative and inclusive institution by seeking excellence in teaching, research and knowledge transfer. <br>
+                    Pursue research and development and its dissemination to the community at large.<br>
+                    Create, sustain and apply learning in an interdisciplinary environment with consideration for ethical, ecological and economic aspects of nation building.<br>
+                    Provide knowledge-based technological support and services to the industry in its growth and development.<br>
+                    To impart globally applicable skill-sets to students through flexible course offerings and support industry’s requirement and inculcate a spirit of new venture creation.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                    
+        </div>
+        
+
+</section>
+
+<!-- ----------footer---- -->
+   <section class="footer">
+    <h4>About Us</h4>
+    <p>Presidency Group of Institutions (PGI), along with the University, constitutes 7 Schools and a College.
+         While the college offers programmes to students at both the undergraduate and postgraduate levels in information technology, commerce,
+         management and journalism, the schools offer National and International Boards of Studies</p>
+         <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+         </div>
+   </section>
+
+
+
+
+<!-- -------javascript- for toggle menu-- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+        
+    </body>
+</html>

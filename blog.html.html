@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="veiwport" content="with=device-width, intial-scale=1.0">
+       <title>University website design - Presidency University</title>
+       <link rel="stylesheet" href="styles.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/b800daac61.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo-1.png" ></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-sharp fa-solid fa-xmark " onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html.html">ABOUT</a></li>
+                        <li><a href="course.html.html">COURSE</a></li>
+                        <li><a href="blog.html.html">BLOG</a></li>
+                        <li><a href="contact.html.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+             <h1>Overview of our University</h1>
+        </section>
+        <!-- ---------- blog page content--- -->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/blog image.jpg" alt="">
+                    <h2>Overview </h2>
+                    Presidency Group of Institutions (PGI), along with the University, constitutes 7 Schools and a College. While the college offers 
+                    programmes to students at both the undergraduate and postgraduate levels in information technology, commerce, management and journalism,
+                     the schools offer National and International Boards of Studies.Presidency College, located in Bengaluru,
+                     has been re-accredited by NAAC with ‘A+’ . <br>
+                    The postgraduate MBA programme at Presidency College is approved by the AICTE, Delhi. Within a short span of three decades, 
+                    PGI has created a niche for itself as one of the top-notch institutions in Bengaluru. Recently, Presidency Group of 
+                    Institutions (PGI) was bestowed with the “Most Promising
+                     Institute in South India” award at the British South India Council of Commerce and Business Meet 2014. <br>
+
+                    The latest venture of the group Presidency University is a testimony to the fact that the group has almost over three decades
+                     of experience in education from K to 12 to Higher Education. <br>
+                    Presidency University aspires to be among the best universities in the world in the shortest span possible,
+                    with focus on innovative and research oriented teaching methodology, state-of-the-art facilities, industry-friendly 
+                     curriculum with concrete action plans and an unwavering commitment to the pursuit of excellence.
+                       
+                </div>
+                
+        </section>
+
+
+<!-- ----------footer---- -->
+   <section class="footer">
+    <h4>About Us</h4>
+    <p>Presidency Group of Institutions (PGI), along with the University, constitutes 7 Schools and a College.
+         While the college offers programmes to students at both the undergraduate and postgraduate levels in information technology, commerce,
+         management and journalism, the schools offer National and International Boards of Studies</p>
+         <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+         </div>
+   </section>
+
+
+
+
+<!-- -------javascript- for toggle menu-- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+        
+    </body>
+</html>
